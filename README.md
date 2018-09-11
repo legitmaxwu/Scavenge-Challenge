@@ -1,0 +1,3 @@
+# Pattern-Scavenger-Hunt
+
+hello!
