@@ -1,12 +1,2 @@
-cloudpickle==0.5.5
-dask==0.19.1
-decorator==4.3.0
-networkx==2.1
 numpy==1.15.1
-Pillow==5.2.0
-PyWavelets==1.0.0
-scikit-image==0.14.0
-scipy==1.1.0
-six==1.11.0
-toolz==0.9.0
 opencv-python==3.4.3.18
