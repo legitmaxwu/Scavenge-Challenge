@@ -1,3 +1,3 @@
 # Pattern-Scavenger-Hunt
 
-hello!
+Multiplayer mobile scavenger hunt game.
