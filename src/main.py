@@ -108,7 +108,18 @@ def saveTask():
             'status': 'OK',
             'message': 'Task Added!',
         })
-
+        
+@app.route('/detectpattern', methods=['POST'])
+def detectPattern():
+    if request.method == 'POST':
+        url = request.json.get('pattern_url', None)
+        b64 = request.json.get('image_b64', None)
+        match = compareImage(url, b64)
+        return jsonify({
+            "status": 'OK',
+            "message": 'Compared!',
+            "match": match,
+        })
 
 @socketio.on('connect')  #authentication?
 def connect_handler():
