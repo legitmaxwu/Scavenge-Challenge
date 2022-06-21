@@ -27,7 +27,7 @@ MarkupSafe==1.0
 matplotlib==2.2.3
 monotonic==1.5
 networkx==2.1
-numpy==1.15.1
+numpy==1.22.0
 opencv-python==3.4.3.18
 Pillow==5.2.0
 pycparser==2.18
